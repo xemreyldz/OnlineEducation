@@ -1,0 +1,96 @@
+.course-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px; /* Sayfa genişliğini sınırla */
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+.course-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* İçeriği kartın yüksekliğine göre yayar */
+}
+
+.course-content > div {
+  margin-top: auto; /* Düğmeyi en alta iter */
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.image-wrapper {
+  height: 180px;
+  overflow: hidden;
+}
+
+.course-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.course-content {
+  padding: 1rem;
+}
+
+.course-title {
+  font-size: 1.25rem;
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.course-description {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 1rem;
+  font-family: centruy gothic;
+}
+.course-button:hover {
+  background-color: #00509e;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.no-courses {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ff0000;
+  font-family: "Century Gothic", sans-serif;
+  margin-top: 2rem;
+}
+.course-buttons{
+  display: flex;
+  justify-content: space-around; /* Butonlar arasındaki boşluk */
+  gap: 18px; /* Butonlar arasındaki aralık */
+}
+.course-buttons .MuiButton-root {
+  display: flex;
+  align-items: center;
+}

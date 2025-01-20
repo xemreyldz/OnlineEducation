@@ -1,0 +1,22 @@
+/* Navbar.css */
+
+.AppBar {
+    box-shadow: none; /* Gölgeyi kaldırmak için */
+}
+
+.Toolbar {
+    display: flex;
+    justify-content: space-between; /* Elemanlar arasındaki boşluğu eşit yap */
+}
+
+.textField {
+    margin: 0 10px; /* Arama çubuğu için yan boşluk */
+}
+
+.button {
+    margin-left: 10px; /* Buton için yan boşluk */
+}
+.btn-user{
+    background-color: #163836;
+    color: white;
+}

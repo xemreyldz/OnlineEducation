@@ -1,0 +1,135 @@
+.course-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  max-width: 1400px; /* Genişliği artırdık */
+  margin: 0 auto;
+}
+
+.left-panel, .right-panel {
+  width: 100%;
+  max-width: 1100px; /* Sağ ve sol panelin genişliğini artırdık */
+  margin-bottom: 40px;
+}
+
+.course-video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instructor-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.instructor-image {
+  width: 60px;
+  height: 60px; /* Eğitmen fotoğrafını büyüttük */
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.instructor-name {
+  font-size: 20px; /* Font büyüklüğünü artırdık */
+  font-weight: bold;
+  color: #333;
+}
+
+.instructor-specialty {
+  font-size: 16px; /* Daha büyük bir font büyüklüğü */
+  color: #777;
+  margin-left: 15px;
+}
+
+.rating-container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.course-title {
+  font-size: 32px; /* Başlık fontunu büyüttük */
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.course-description {
+  font-size: 18px; /* Açıklama fontunu biraz daha büyüttük */
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.enroll-button {
+  background-color: #003366;
+  color: white;
+  font-weight: bold;
+  padding: 12px 25px; /* Butonun boyutunu büyüttük */
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+.enroll-button:hover {
+  background-color: #005b99;
+}
+
+.comment-section {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.comment-section .error-message {
+  color: red;
+  font-size: 16px; /* Hata mesajlarını büyüttük */
+  margin-top: 12px;
+}
+
+.comment-list {
+  margin-top: 50px;
+}
+
+.loading,
+.error {
+  font-size: 20px; /* Yükleniyor ve hata mesajlarını büyüttük */
+  color: #f44336;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.comment-list .comment {
+  background-color: #f7f7f7;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-radius: 6px; /* Yorum kutularını yuvarlattık */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comment-list .comment p {
+  font-size: 18px; /* Yorum metnini büyüttük */
+  color: #333;
+}
+
+.comment-list .comment .author {
+  font-weight: bold;
+  font-size: 16px; /* Yazar ismini büyüttük */
+  color: #003366;
+}
+
+.comment-list .comment .date {
+  font-size: 14px;
+  color: #999;
+  margin-top: 7px;
+}
+.enrolled-message{
+  background-color: rgb(21, 181, 63);
+  height: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,34 @@
+.students-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .students-table th,
+  .students-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .students-table th {
+    background-color: #003366;
+    color: white;
+  }
+  
+  .students-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  

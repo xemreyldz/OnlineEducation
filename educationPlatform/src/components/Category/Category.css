@@ -1,0 +1,28 @@
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none; /* Nokta işaretlerini kaldır */
+  margin-bottom: 15px;
+}
+
+.category-item {
+  padding: 16px 15px 16px 13px;
+  background-color: #163836; /* Hafif gri arka plan */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase; /* Metni büyük harfe çevir */
+  margin: 0; /* Butonlar arasında boşluk olmaması için */
+}
+
+.category-item:not(:last-child) {
+  margin-right: -1px; /* Hafif üst üste gelmelerini sağlamak için negatif margin */
+}
+
+.category-item:hover {
+  transform: translateY(-1px); /* Hover durumunda yukarı kaldır */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Hover durumunda daha belirgin gölge */
+}

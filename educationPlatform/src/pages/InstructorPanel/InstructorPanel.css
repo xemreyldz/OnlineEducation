@@ -1,0 +1,46 @@
+.instructor-panel {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    
+  }
+  
+  .sidebar .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .profile-section h3 {
+    margin: 0;
+    color: #c0c0c0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  

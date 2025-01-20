@@ -1,0 +1,64 @@
+/* Sidebar genel stil */
+.sidebar {
+    width: 250px;
+    min-height: 100vh; /* Sayfa yüksekliği kadar uzar */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alt alta yerleştirme */
+    align-items: center; /* Yatayda ortalama */
+    background-color: #163836; /* Sidebar arka plan rengi */
+    transition: background-color 0.3s ease; /* Arka plan rengi değişim animasyonu */
+}
+
+/* Sidebar'da karanlık mod desteği */
+.sidebar.dark {
+    background-color: #171717; /* Karanlık modda farklı arka plan rengi */
+}
+
+/* Profil kısmını tutacak div */
+.profile-section {
+    display: flex;
+    flex-direction: column; /* Alt alta hizalama */
+    align-items: center; /* Yatayda ortalama */
+    gap: 10px; /* Avatar ve ismin arasındaki boşluk */
+    margin-bottom: 20px; /* Menü ile profil arasında boşluk */
+}
+
+/* Profil ismi stil */
+.profile-section h3 {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center; /* İsmi ortalamak için */
+}
+
+/* Sidebar menüsündeki liste */
+.sidebar ul {
+    list-style: none;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 0;
+    width: 100%; /* Listeyi tam genişlik yap */
+    text-align: left; /* Metinleri sola hizalayalım */
+}
+
+/* Liste öğeleri arasındaki boşluk */
+.sidebar ul li {
+    margin: 15px 0; /* Liste öğeleri arasında boşluk */
+}
+
+/* Bağlantı stilini düzenleyelim */
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* İkon ve metin arasındaki boşluk */
+    gap: 10px; /* İkon ile metin arasındaki boşluk */
+    font-size: 16px; /* Yazı tipi boyutu */
+    transition: color 0.3s ease; /* Hover rengi animasyonu */
+}
+
+.sidebar ul li a:hover {
+    color: #00bcd4; /* Hover durumunda mavi tonunda renk değişimi */
+}
